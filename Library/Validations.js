@@ -28,28 +28,4 @@ const ValidateBorderWidth = (input) => {
     return true;
 };
 
-// Radius Validation
-const ValidateRadius = (input) => {
-    const Radius = parseInt(input);
-    if (isNaN(Radius)) {
-        return 'Error: Please enter a valid number.';
-    }
-    if (Radius < 50 || Radius > 200) {
-        return 'Error: Radius must be between 50 and 200.';
-    }
-    return true;
-};
-
-// Width Validation
-const ValidateWidth = (input) => {
-    const Width = parseInt(input);
-    if(isNaN(Width)) {
-        return 'Error: Please enter a valid number.';
-    }
-    if(Width < 100 || Width > 400) {
-        return 'Error: Width must be between 100 and 400.';
-    }
-    return true;
-};
-
-module.exports = {ValidateColorKey, ValidateColorHex, ValidateBorderWidth, ValidateRadius, ValidateWidth};
+module.exports = {ValidateColorKey, ValidateColorHex, ValidateBorderWidth};

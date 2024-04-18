@@ -4,7 +4,7 @@ const Triangle = require('./Shapes/Triangle');
 
 function SetShape(answers) {
     if(answers.ShapeType === 'Circle') {
-        let UserShape = new Circle(answers.Text, answers.ShapeColor, answers.TextColor, answers.BorderColor, answers.BorderWidth, answers.Radius);
+        let UserShape = new Circle(answers.Text, answers.ShapeColor, answers.TextColor, answers.BorderColor, answers.BorderWidth);
         return UserShape.render();
     }
 

@@ -61,18 +61,6 @@ const Questions = [
         type: 'number',
         message: 'What thickness would you like the shape border to be set to? (Value Between 0-15)',
         validate: (input) => ValidateBorderWidth(input),
-    }, {
-        name: 'Radius',
-        type: 'number',
-        message: 'What would you like the radius of the circle to be set to? (Value Between 50-200)',
-        when: (answers) => answers.ShapeType === 'Circle',
-        validate: (input) => ValidateRadius(input),
-    }, {
-        name: 'Width',
-        type: 'number',
-        message: 'What would you like the width of the square to be set to? (Value Between 100-400)',
-        when: (answers) => answers.ShapeType === 'Square',
-        validate: (input) => ValidateWidth(input),
     },
 ];
 
