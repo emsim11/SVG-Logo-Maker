@@ -4,7 +4,8 @@
   "description": "Command-line tool to generate an SVG logo and write it to file.",
   "main": "Index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node Index.js"
   },
   "keywords": [],
   "author": "Emily Simone",
