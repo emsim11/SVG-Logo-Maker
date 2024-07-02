@@ -6,7 +6,7 @@
 
 [![GitHub Follow Badge](https://img.shields.io/github/followers/emsim11?label=Follow)](https://github.com/emsim11) ![GitHub Repository Forks Badge](https://img.shields.io/github/forks/emsim11/SVG-Logo-Maker?label=Forks&labelColor=3A3B3C&logo=GitHub) ![GitHub Repository Stars Badge](https://img.shields.io/github/stars/emsim11/SVG-Logo-Maker?label=Stars&labelColor=3A3B3C&logo=GitHub) ![GitHub Repository Watchers Badge](https://img.shields.io/github/watchers/emsim11/SVG-Logo-Maker?label=Watchers&labelColor=3A3B3C&logo=GitHub)
 
-[![Deployed URL Badge](https://img.shields.io/badge/Deployed_URL-Title-purple?logo=GoogleChrome&logoColor=ffffff&labelColor=3A3B3C&color=E0ADF7&link=Deployed-Url.com)](Deployed-Url.com)
+[![Deployed URL Badge](https://img.shields.io/badge/Deployed_URL-SVG_Logo_Maker-purple?logo=GoogleChrome&logoColor=ffffff&labelColor=3A3B3C&color=E0ADF7&link=Deployed-Url.com)](https://github.com/emsim11/SVG-Logo-Maker)
 
 <p>
 <a href="#description">Description</a> • 
@@ -31,50 +31,50 @@ How To Use The Project, Any Obstacles That Had To Be Overcome During Dev
 ### User Story
 
 ```md
-AS A freelance web developer
+As a freelance web developer
 
-I WANT to generate a simple logo for my projects
+I want to generate a simple logo for my projects
 
-SO THAT I don't have to pay a graphic designer
+So that I don't have to pay a graphic designer
 ```
 
 ### Acceptance Criteria
 
 ```md
-GIVEN a command-line application that accepts user input
+Given a command-line application that accepts user input
 
-WHEN I am prompted for text
+When I am prompted for text
 
-THEN I can enter up to three characters
+Then I can enter up to three characters
 
-WHEN I am prompted for the text color
+When I am prompted for the text color
 
-THEN I can enter a color keyword (OR a hexadecimal number)
+Then I can enter a color keyword (OR a hexadecimal number)
 
-WHEN I am prompted for a shape
+When I am prompted for a shape
 
-THEN I am presented with a list of shapes to choose from: circle, triangle, and square
+Then I am presented with a list of shapes to choose from: circle, triangle, and square
 
-WHEN I am prompted for the shape's color
+When I am prompted for the shape's color
 
-THEN I can enter a color keyword (OR a hexadecimal number)
+Then I can enter a color keyword (OR a hexadecimal number)
 
-WHEN I have entered input for all the prompts
+When I have entered input for all the prompts
 
-THEN an SVG file is created named `Logo.svg`
+Then an SVG file is created named `Logo.svg`
 
-AND the output text "Generated Logo.svg" is printed in the command line
+And the output text "Generated Logo.svg" is printed in the command line
 
-WHEN I open the `Logo.svg` file in a browser
+When I open the `Logo.svg` file in a browser
 
-THEN I am shown a 300x200 pixel image that matches the criteria I entered
+Then I am shown a 300x200 pixel image that matches the criteria I entered
 ```
 
 [Back to Top](#svg-logo-generator)
 
 ## Features
 
-Key Features
+- Key Features
 
 [Back to Top](#svg-logo-generator)
 
@@ -83,6 +83,8 @@ Key Features
 Installation Steps
 
 ### Technologies
+
+[![Jest Badge](https://img.shields.io/badge/Jest.js-v28.1.3-Pink?logo=jest&logoColor=FFFFFF&labelColor=3A3B3C&color=F778A1)](https://nodejs.org/en) [![Inquirer Badge](https://img.shields.io/badge/Inquirer-v8.2.4-Pink?logo=npm&logoColor=FFFFFF&labelColor=3A3B3C&color=F778A1)](https://www.npmjs.com/package/inquirer)
 
 Technologies Used During Build
 
@@ -94,7 +96,7 @@ Instructions & Examples
 
 ### Visuals
 
-Visuals / Screenshots
+Visuals and Screenshots
 
 [Back to Top](#svg-logo-generator)
 
