@@ -9,7 +9,7 @@
   },
   "keywords": [],
   "author": "Emily Simone",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "^8.2.4"
   },
